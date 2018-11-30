@@ -4,3 +4,10 @@ allow qti_init_shell hci_attach_dev:chr_file rw_file_perms;
 allow qti_init_shell proc:dir setattr;
 allow qti_init_shell sysfs:file write;
 allow qti_init_shell sysfs_devices_system_cpu:dir write;
+allow qti_init_shell sysfs_kcal:dir search;
+allow qti_init_shell sysfs_kcal:file rw_file_perms;
+allow qti_init_shell sysfs_vibrator:dir search;
+allow qti_init_shell sysfs_vibrator:file rw_file_perms;
+allow qti_init_shell sysfs_doubletap2wake:dir search;
+allow qti_init_shell sysfs_doubletap2wake:file rw_file_perms;
+

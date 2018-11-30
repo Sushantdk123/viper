@@ -53,6 +53,24 @@ on early-boot
 
     exec u:r:qti_init_shell:s0 -- /vendor/bin/init.qcom.early_boot.sh
 
+    # Vibrator permissions
+    chown root system /sys/class/timed_output/vibrator/vtg_level
+    chmod 0660 /sys/class/timed_output/vibrator/vtg_level
+
+     # Kcal permissions
+    chown root system /sys/devices/platform/kcal_ctrl.0/kcal
+    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal
+    chown root system /sys/devices/platform/kcal_ctrl.0/kcal_min
+    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_min
+    chown root system /sys/devices/platform/kcal_ctrl.0/kcal_sat
+    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_sat
+    chown root system /sys/devices/platform/kcal_ctrl.0/kcal_hue
+    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_hue
+    chown root system /sys/devices/platform/kcal_ctrl.0/kcal_val
+    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_val
+    chown root system /sys/devices/platform/kcal_ctrl.0/kcal_cont
+    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_cont
+
     # Graphics
     chown system graphics /sys/class/graphics/fb0/idle_time
     chmod 0664 /sys/class/graphics/fb0/idle_time
@@ -67,6 +85,7 @@ on early-boot
     chown system graphics /sys/class/graphics/fb0/msm_cmd_autorefresh_en
     chmod 0664 /sys/class/graphics/fb0/msm_cmd_autorefresh_en
 
+<<<<<<< HEAD
     # for backward compatibility
     chown system system /persist/sensors
     chown system system /persist/sensors/registry
@@ -86,6 +105,10 @@ on early-boot
     chown system system /mnt/vendor/persist/sensors/registry/sns_reg_config
     chown system system /mnt/vendor/persist/sensors/registry/config
     chmod 0664 /mnt/vendor/persist/sensors/sensors_settings
+=======
+    chown root system /sys/android_touch/doubletap2wake
+    chmod 0660 /sys/android_touch/doubletap2wake
+>>>>>>> d64f576... msm8937-common: Import Xiaomiparts
 
     # SSR setup
     write /sys/bus/msm_subsys/devices/subsys0/restart_level "related"

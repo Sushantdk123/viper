@@ -35,3 +35,9 @@
 
 # Light
 /sys/devices/soc/78b6000\.i2c/i2c-2/2-[0-9a-f]+/leds(/.*)?    u:object_r:sysfs_leds:s0
+
+#XiaomiParts
+/sys/devices/platform/kcal_ctrl.0(/.*)?    u:object_r:sysfs_kcal:s0           
+/sys/class/timed_output/vibrator/vtg_level    u:object_r:sysfs_vibrator:s0
+/sys/android_touch/doubletap2wake     u:object_r:sysfs_doubletap2wake:s0
+

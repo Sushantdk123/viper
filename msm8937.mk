@@ -406,3 +406,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/msm8937-common/msm8937-common-ve
 #Camera Fixes
 PRODUCT_COPY_FILES += \
  $(LOCAL_PATH)/vendor/lib/hw/camera.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8937.so
+
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
