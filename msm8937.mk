@@ -402,3 +402,7 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit common proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/msm8937-common/msm8937-common-vendor.mk)
+
+#Camera Fixes
+PRODUCT_COPY_FILES += \
+ $(LOCAL_PATH)/vendor/lib/hw/camera.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8937.so
