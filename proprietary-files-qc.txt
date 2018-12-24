@@ -267,7 +267,14 @@ vendor/lib/libadpcmdec.so|eeaef8dd6cad3da613860bb263f192cda56c60b6
 vendor/lib/libsmwrapper.so|58dcf09adcbe6c851417e1569a120ac2e5e64a9d
 
 # Media - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
+lib/extractors/libmmparser.so|6c50c5d01ceff647de389f3f15b1952c2bcdd2d7
+lib/libFileMux.so|5961dd16c9c6808e8321abf4b0266a9926ef327b
+lib/libmmosal.so|89a3c4404de99e9ee740aeea1883c15470d61a74
+lib/libmmparser_lite.so|db9e6dafd466fd0aa3b2d7b387fda38ee9838a08
+lib/libOmxMux.so|6aff8e6e81331f3d5d3a8d46d342e5b5efc237f3
+lib64/libmmosal.so|3d50c7ea56db9c3676be9d6e36e1030386ecdb02
 -vendor/lib/libgpustats.so|83d8856717923ab389aecf17445e33fc21b90afc
+vendor/lib/libmmosal_proprietary.so|51d9cbf713f06e07d3f8aa65640f7251e9b3a808
 vendor/lib/libOmxAacDec.so|feacef5e0d1e68a54d9fe6a78ee52f4490696f3d
 vendor/lib/libOmxAlacDec.so|e74385d700fe898b0075cd0742fc7db162564a50
 vendor/lib/libOmxAlacDecSw.so|3b4ef8fd510e91df8c440447c03a8a42bac23752
@@ -447,6 +454,8 @@ lib/libmmosal.so|89a3c4404de99e9ee740aeea1883c15470d61a74
 lib/libmmrtpdecoder.so|adb55936e63ff087a9e3458070515e1ab7dbe178
 lib/libmmrtpencoder.so|9a85d450a8633207f7a499962c5821d1a3fec2b8
 lib/libOmxMux.so|6aff8e6e81331f3d5d3a8d46d342e5b5efc237f3
+lib/libmmrtpdecoder.so|adb55936e63ff087a9e3458070515e1ab7dbe178
+lib/libmmrtpencoder.so|9a85d450a8633207f7a499962c5821d1a3fec2b8
 lib/libwfdavenhancements.so|6a4e5a28579cebcfc66ade3657abce4884ade19c
 lib/libwfdcodecv4l2.so|b3a3fb10c2d3a8709badb9b3f6c02d0b961136ab
 lib/libwfdcommonutils.so|4672af5a1537df38149b37671f75f9d53e51cfb5
@@ -462,6 +471,8 @@ lib/libwfduibcsink.so|989ed94f8c0047d85db60acc7b76eb9fb0014270
 lib/libwfduibcsinkinterface.so|f8c191d35178f865777dad9874692a26fae90851
 lib/libwfduibcsrc.so|78bc3258deb8f818c3392d5accdf8e7aac729fdc
 lib/libwfduibcsrcinterface.so|3ce31a3bde36bd5c7dac31ccc1fda8043f482f86
+lib64/libwfdclient.so|c69712162493bdaa8833b5aae342ee4f9b0c2408
+lib64/libwfdnative.so|3c6bdb95486a75074167dbd5abacac5ccc3db8e7
 -priv-app/WfdService/WfdService.apk|faf7643790e30775a05d36176ce2aaabe3e7b199
 vendor/bin/wifidisplayhalservice|959c9f4c35f3967d6ebf9d3c5cb5728ce5e4752f
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc|f3add191d48d9285eb1b69433c36bb3edbaf86fe
@@ -472,3 +483,4 @@ vendor/lib/libwfdhdcpcp.so|73497564f7e1bc80c1110d56d0d49d47ffd21da8
 vendor/lib/libwfdmmservice.so|a99c38be9f6a6ce4a2767fb066191c2017fcb341
 vendor/lib/libwfdmodulehdcpsession.so|89fc62ee8f41bde6b2dcc9bcde3e52954ae5253d
 vendor/lib64/libwfdhdcpcp.so|c4f8b9368ca91157695144438d02fe5f31af635d
+
