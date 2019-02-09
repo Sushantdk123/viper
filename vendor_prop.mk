@@ -156,3 +156,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# Deepsleep
+PRODUCT_PROPERTY_OVERRIDES += \
+    pm.sleep_mode=1
