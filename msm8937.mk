@@ -126,7 +126,13 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.mapper@2.0-impl \
     android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service
+    android.hardware.memtrack@1.0-service \
+    android.hardware.configstore@1.0-service
+
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 
 # DRM
 PRODUCT_PACKAGES += \
